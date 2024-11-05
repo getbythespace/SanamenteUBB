@@ -1,0 +1,17 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.0' // Asegúrate de que la versión sea la correcta para tu proyecto
+        classpath 'com.google.gms:google-services:4.4.2' // Clase necesaria para Google Services
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
