@@ -46,7 +46,8 @@ ios/Runner/GoogleService-Info.plist
 lib/firebase_options.dart  # Archivo generado por flutterfire configure
 
 # Firebase config for web
-/web/firebase_config.js
+/web/firebaseConfig.js
+
 
 # Local environment/configuration files
 *.env
